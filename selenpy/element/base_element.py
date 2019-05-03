@@ -4,8 +4,6 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenpy.common import config
 from selenpy.helper.wait import wait_for
-from selenium.webdriver.support.expected_conditions import _find_element
-from selenium.webdriver.common.action_chains import ActionChains
 
 
 class BaseElement():
